@@ -4,6 +4,14 @@ This repository contains different implementations of chat bots using various te
 
 ## Projects
 
+### Art AI Chatbot
+A Node.js application that generates images using OpenAI's DALL-E 3 model. Users can enter text descriptions and receive AI-generated images based on their prompts. 
+This project includes:
+- OpenAI DALL-E 3 integration
+- Real-time image generation
+- Simple and responsive UI
+
+
 ### dog-bot
 An old Google Apps script bot that generated a random dog picture in Google Hangouts Chat. Relic from my days at Red Hat, where somtimes you just needed to see a random dog to brighten your day. Simple, yet effective.
 
