@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center mb-12">
+    <h2 class="text-4xl font-bold text-sky-800 mb-4 mt-4">Meet Glitch</h2>
+    <p class="text-lg text-sky-600">Interact with our weird chatbot powered by OpenAI!</p>
+</div>
+<div class="flex justify-center">
+    <a href="{{ url_for('chat') }}"
+       class="bg-sky-500 hover:bg-sky-600 text-white px-8 py-4 rounded-lg text-xl font-semibold transition-colors shadow-md hover:shadow-lg">
+        Start Chatting
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="bg-gray-100 rounded-lg p-6 shadow-md mb-4">
+    <div id="chat-output" class="min-h-[400px] max-h-[400px] overflow-y-auto mb-4 space-y-2"></div>
+    <form id="chat-form" class="flex gap-2">
+        <input type="text" 
+               id="chat-input" 
+               placeholder="Type your message here..." 
+               class="flex-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-sky-500">
+        <button type="submit" 
+                class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-lg transition-colors">
+            Send
+        </button>
+    </form>
+</div>
+{% endblock %}
