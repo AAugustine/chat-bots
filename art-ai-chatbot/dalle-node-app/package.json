@@ -1,0 +1,18 @@
+{
+  "name": "dalle-node-app",
+  "version": "1.0.0",
+  "description": "A Node.js application that uses OpenAI's DALL-E models to generate images from user input.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "openai":  "^4.20.0",
+    "dotenv": "^10.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
