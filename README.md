@@ -25,8 +25,9 @@ A web-based chatbot built with Flask and OpenAI API that features:
 ### Directory Structure
 ```
 chat-bots/
+├── ai-art-chatbot/      # Node.js based OpenAI chatbot
 ├── dog-bot/             # Google apps script chatbot
-├── flask-ai-chatbot/      # Flask-based OpenAI chatbot
+├── flask-ai-chatbot/    # Flask-based OpenAI chatbot
 ├── README.md
 └── .gitignore
 ```
